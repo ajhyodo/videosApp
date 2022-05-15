@@ -19,6 +19,7 @@ export class Tab1Page {
       cartaz:
         'https://www.themoviedb.org/t/p/w220_and_h330_face/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg',
       generos: ['Fantasia', 'Ação', 'Aventura'],
+      pagina: '/drestranho',
     },
     {
       nome: 'Uncharted: Fora do Mapa (2022)',
@@ -28,6 +29,7 @@ export class Tab1Page {
       cartaz:
         'https://www.themoviedb.org/t/p/w220_and_h330_face/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg',
       generos: ['Ação', 'Aventura'],
+      pagina: '/uncharted',
     },
   ];
 
