@@ -1,3 +1,4 @@
+import { IFilme } from '../models/IFilme.model';
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
 import { ToastController } from '@ionic/angular';
@@ -8,6 +9,28 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['tab1.page.scss'],
 })
 export class Tab1Page {
+  titulo = 'Vídeos App';
+  listaVideos: IFilme[] = [
+    {
+      nome: 'Dr. Estranho (2022)',
+      lancamento: '04/05/2022',
+      duracao: '2h 6m',
+      classificacao: 76,
+      cartaz:
+        'https://www.themoviedb.org/t/p/w220_and_h330_face/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg',
+      generos: ['Fantasia', 'Ação', 'Aventura'],
+    },
+    {
+      nome: 'Uncharted: Fora do Mapa (2022)',
+      lancamento: '12/02/2022',
+      duracao: '1h 56m',
+      classificacao: 76,
+      cartaz:
+        'https://www.themoviedb.org/t/p/w220_and_h330_face/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg',
+      generos: ['Ação', 'Aventura'],
+    },
+  ];
+
   constructor(
     public alertController: AlertController,
     public toastController: ToastController
