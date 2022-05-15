@@ -8,11 +8,25 @@
 
 <ion-content [fullscreen]="true" color="light">
 
-    <img src="https://avatars.githubusercontent.com/u/105309086?v=4" alt="">
+    <ion-searchbar placeholder="Buscar"> </ion-searchbar>
 
-    <h1>Andre Hyodo</h1>
-    <p>Aluno do curso Ionic</p>
-    <a href="mailto:ahyodo@hotmail.com">ahyodo@hotmail.com</a>
+    <ion-list lines="full">
+        <ion-item>
+            <ion-thumbnail slot="start">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" />
+            </ion-thumbnail>
+            <ion-label class="ion-text-wrap">
+                <div>
+                    <h1>Dr. Estranho (2022)</h1>
+                    <p>04/05/2022 (BR) - 2h 6m</p>
+                    <p>Fantasia, Ação, Aventura </p>
+                </div>
+            </ion-label>
+            <ion-chip color="success" outline>
+                <ion-label>76%</ion-label>
+            </ion-chip>
+        </ion-item>
+    </ion-list>
 
 
 </ion-content>
