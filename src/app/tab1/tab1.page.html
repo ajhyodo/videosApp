@@ -11,21 +11,60 @@
     <ion-searchbar placeholder="Buscar"> </ion-searchbar>
 
     <ion-list lines="full">
-        <ion-item>
-            <ion-thumbnail slot="start">
-                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" />
-            </ion-thumbnail>
-            <ion-label class="ion-text-wrap">
-                <div>
-                    <h1>Dr. Estranho (2022)</h1>
-                    <p>04/05/2022 (BR) - 2h 6m</p>
-                    <p>Fantasia, Ação, Aventura </p>
-                </div>
-            </ion-label>
-            <ion-chip color="success" outline>
-                <ion-label>76%</ion-label>
-            </ion-chip>
-        </ion-item>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-thumbnail slot="start">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hq2igFqb31fDqGotz8ZuUfwKgn8.jpg" />
+                </ion-thumbnail>
+
+                <ion-label class="ion-text-wrap">
+                    <div>
+                        <h1>Dr. Estranho (2022)</h1>
+                        <p>04/05/2022 (BR) - 2h 6m</p>
+                        <p>Fantasia, Ação, Aventura </p>
+                    </div>
+                </ion-label>
+
+                <ion-chip color="success" outline>
+                    <ion-label>76%</ion-label>
+                </ion-chip>
+            </ion-item>
+
+            <ion-item-options side="end">
+                <ion-item-option>
+                    <ion-icon slot="icon-only" name="star"></ion-icon>
+                </ion-item-option>
+            </ion-item-options>
+
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+            <ion-item>
+                <ion-thumbnail slot="start">
+                    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qNAPgepJ4NHNA74ThVsxQEOUceJ.jpg" />
+                </ion-thumbnail>
+
+                <ion-label class="ion-text-wrap">
+                    <div>
+                        <h1>Uncharted: Fora do Mapa (2022)</h1>
+                        <p>12/02/2022 (BR) - 1h 56m</p>
+                        <p>Ação, Aventura </p>
+                    </div>
+                </ion-label>
+
+                <ion-chip color="success" outline>
+                    <ion-label>76%</ion-label>
+                </ion-chip>
+            </ion-item>
+
+            <ion-item-options side="end">
+                <ion-item-option>
+                    <ion-icon slot="icon-only" name="flag"></ion-icon>
+                </ion-item-option>
+            </ion-item-options>
+
+        </ion-item-sliding>
     </ion-list>
 
 
