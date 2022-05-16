@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'uncharted',
     loadChildren: () => import('./filmes/uncharted/uncharted.module').then( m => m.UnchartedPageModule)
+  },
+  {
+    path: 'dados-filme',
+    loadChildren: () => import('./dados-filme/dados-filme.module').then( m => m.DadosFilmePageModule)
   }
 ];
 @NgModule({
